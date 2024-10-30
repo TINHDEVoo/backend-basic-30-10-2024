@@ -1,0 +1,27 @@
+{
+  "name": "backend-node-30-10-2024",
+  "version": "1.0.0",
+  "description": "backend basic",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TINHDEVoo/backend-basic-30-10-2024.git"
+  },
+  "keywords": [
+    "nodejs",
+    "react"
+  ],
+  "author": "tinh dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TINHDEVoo/backend-basic-30-10-2024/issues"
+  },
+  "homepage": "https://github.com/TINHDEVoo/backend-basic-30-10-2024#readme",
+  "dependencies": {
+    "express": "4.18.2"
+  }
+}
