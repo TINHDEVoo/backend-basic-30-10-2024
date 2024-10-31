@@ -11,7 +11,11 @@ const getAbc = (req, res) => {
 const getHoidanit = (req, res) => {
     res.render('sample.ejs')
 }
+const postCreateUser = (req, res) => {
+    console.log(req.body)
+    res.send("Create-user")
+}
 
 module.exports = {
-    getHomepage, getAbc, getHoidanit
+    getHomepage, getAbc, getHoidanit, postCreateUser
 }
